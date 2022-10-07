@@ -31,17 +31,3 @@ Node* merge(Node* a, Node* b) {
     return result;
 }
 
-Node* flatten(Node* root)
-{
-    // base condition
-    if (root == NULL || root->next == NULL) return root;
-
-    // recur the LL in next till end so that we can flatten last 2 node.
-    root->next = flatten(root->next);
-
-    // now merge both 
-    root = merge(root, root->next);
-
-    // it will be merged LL in bottom of the smaller node.
-    return root;
-}
