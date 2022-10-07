@@ -44,6 +44,115 @@ struct Node* partition(struct Node* head, struct Node* end, struct Node** newHea
             cur = tmp;
         }
     }
+    struct Node* sortedIntersect(
+    struct Node* a,
+    struct Node* b)
+{
+    /* base case */
+    if (a == NULL || b == NULL)
+        return NULL;
+
+    /* If both lists are non-empty */
+
+    /* advance the smaller list and call recursively */
+    if (a->data < b->data)
+        return sortedIntersect(a->next, b);
+
+    if (a->data > b->data)
+        return sortedIntersect(a, b->next);
+
+    // Below lines are executed only
+    // when a->data == b->data
+    struct Node* temp
+        = (struct Node*)malloc(
+            sizeof(struct Node));
+    temp->data = a->data;
+
+    /* advance both lists and call recursively */
+    temp->next = sortedIntersect(a->next, b->next);
+    return temp;
+}struct Node* sortedIntersect(
+    struct Node* a,
+    struct Node* b)
+{
+    /* base case */
+    if (a == NULL || b == NULL)
+        return NULL;
+
+    /* If both lists are non-empty */
+
+    /* advance the smaller list and call recursively */
+    if (a->data < b->data)
+        return sortedIntersect(a->next, b);
+
+    if (a->data > b->data)
+        return sortedIntersect(a, b->next);
+
+    // Below lines are executed only
+    // when a->data == b->data
+    struct Node* temp
+        = (struct Node*)malloc(
+            sizeof(struct Node));
+    temp->data = a->data;
+
+    /* advance both lists and call recursively */
+    temp->next = sortedIntersect(a->next, b->next);
+    return temp;
+}struct Node* sortedIntersect(
+    struct Node* a,
+    struct Node* b)
+{
+    /* base case */
+    if (a == NULL || b == NULL)
+        return NULL;
+
+    /* If both lists are non-empty */
+
+    /* advance the smaller list and call recursively */
+    if (a->data < b->data)
+        return sortedIntersect(a->next, b);
+
+    if (a->data > b->data)
+        return sortedIntersect(a, b->next);
+
+    // Below lines are executed only
+    // when a->data == b->data
+    struct Node* temp
+        = (struct Node*)malloc(
+            sizeof(struct Node));
+    temp->data = a->data;
+
+    /* advance both lists and call recursively */
+    temp->next = sortedIntersect(a->next, b->next);
+    return temp;
+}struct Node* sortedIntersect(
+    struct Node* a,
+    struct Node* b)
+{
+    /* base case */
+    if (a == NULL || b == NULL)
+        return NULL;
+
+    /* If both lists are non-empty */
+
+    /* advance the smaller list and call recursively */
+    if (a->data < b->data)
+        return sortedIntersect(a->next, b);
+
+    if (a->data > b->data)
+        return sortedIntersect(a, b->next);
+
+    // Below lines are executed only
+    // when a->data == b->data
+    struct Node* temp
+        = (struct Node*)malloc(
+            sizeof(struct Node));
+    temp->data = a->data;
+
+    /* advance both lists and call recursively */
+    temp->next = sortedIntersect(a->next, b->next);
+    return temp;
+}
 
     // If the pivot data is the smallest element in the
     // current list, pivot becomes the head
