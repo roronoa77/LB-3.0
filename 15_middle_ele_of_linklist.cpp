@@ -27,4 +27,144 @@ ListNode* middleNode(ListNode* head) {
         fast = fast->next->next;
     }
     return slow;
+}ListNode* middleNode(ListNode* head) {
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    while (fast->next) {
+        // slow pointer jumps 1 at a time
+        slow = slow->next;
+
+        if (fast->next->next == NULL) break;
+
+        // fast pointer jumps 2 at a time
+        fast = fast->next->next;
+    }
+    return slow;
+}ListNode* middleNode(ListNode* head) {
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    while (fast->next) {
+        // slow pointer jumps 1 at a time
+        slow = slow->next;
+
+        if (fast->next->next == NULL) break;
+
+        // fast pointer jumps 2 at a time
+        fast = fast->next->next;
+    }
+    return slow;
+}ListNode* middleNode(ListNode* head) {
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    while (fast->next) {
+        // slow pointer jumps 1 at a time
+        slow = slow->next;
+
+        if (fast->next->next == NULL) break;
+
+        // fast pointer jumps 2 at a time
+        fast = fast->next->next;
+    }
+    return slow;
+}ListNode* middleNode(ListNode* head) {
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    while (fast->next) {
+        // slow pointer jumps 1 at a time
+        slow = slow->next;
+
+        if (fast->next->next == NULL) break;
+
+        // fast pointer jumps 2 at a time
+        fast = fast->next->next;
+    }
+    return slow;
+}ListNode* middleNode(ListNode* head) {
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    while (fast->next) {
+        // slow pointer jumps 1 at a time
+        slow = slow->next;
+
+        if (fast->next->next == NULL) break;
+
+        // fast pointer jumps 2 at a time
+        fast = fast->next->next;
+    }
+    return slow;
+}ListNode* middleNode(ListNode* head) {
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    while (fast->next) {
+        // slow pointer jumps 1 at a time
+        slow = slow->next;
+
+        if (fast->next->next == NULL) break;
+
+        // fast pointer jumps 2 at a time
+        fast = fast->next->next;
+    }
+    return slow;
+}ListNode* middleNode(ListNode* head) {
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    while (fast->next) {
+        // slow pointer jumps 1 at a time
+        slow = slow->next;
+
+        if (fast->next->next == NULL) break;
+
+        // fast pointer jumps 2 at a time
+        fast = fast->next->next;
+    }
+    return slow;
+}ListNode* middleNode(ListNode* head) {
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    while (fast->next) {
+        // slow pointer jumps 1 at a time
+        slow = slow->next;
+
+        if (fast->next->next == NULL) break;
+
+        // fast pointer jumps 2 at a time
+        fast = fast->next->next;
+    }
+    return slow;
+}ListNode* middleNode(ListNode* head) {
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    while (fast->next) {
+        // slow pointer jumps 1 at a time
+        slow = slow->next;
+
+        if (fast->next->next == NULL) break;
+
+        // fast pointer jumps 2 at a time
+        fast = fast->next->next;
+    }
+    return slow;
+}ListNode* middleNode(ListNode* head) {
+    ListNode* slow = head;
+    ListNode* fast = head;
+
+    while (fast->next) {
+        // slow pointer jumps 1 at a time
+        slow = slow->next;
+
+        if (fast->next->next == NULL) break;
+
+        // fast pointer jumps 2 at a time
+        fast = fast->next->next;
+    }
+    return slow;
 }
